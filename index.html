@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+
+
+ <!-- >HERO SECTION 
+<header>
+<h1>WAR ZONE</h1>
+<p>Enter the battlefield. Train your army, attack enemies, and dominate the war zone.</p>
+<button onclick="scrollToGame()">PLAY GAME</button>
+</header>
+
+
+ FEATURES 
+<section>
+<h2 style="text-align:center; margin-bottom:40px;">GAME FEATURES</h2>
+<div class="features">
+<div class="card">
+<h3>⚔ Strategy</h3>
+<p>Plan your attacks carefully to defeat powerful enemies.</p>
+</div>
+<div class="card">
+<h3>🪖 Army Build</h3>
+<p>Increase your army strength with every successful battle.</p>
+</div>
+<div class="card">
+<h3>🌍 War Zones</h3>
+<p>Fight across different dangerous war zones.</p>
+</div>
+</div>
+</section>
+
+
+<!-- SIMPLE GAME -->
+<!-- <section class="game" id="game">
+<h2>BATTLE SIMULATOR</h2>
+<p>Click ATTACK to fight the enemy</p>
+
+
+<div class="stats">
+<p>Your Power: <span id="player">10</span></p>
+<p>Enemy Power: <span id="enemy">15</span></p>
+</div>
+
+
+<button onclick="attack()">ATTACK</button>
+<p id="result" style="margin-top:20px; font-size:1.1rem;"></p>
+</section>
+
+
+<footer>
+© 2025 WAR ZONE | Made for Practice in VS Code
+</footer>
+
+
+<script>
+let playerPower = 10;
+let enemyPower = 15;
+
+
+function attack() {
+const playerHit = Math.floor(Math.random() * 6) + 1;
+const enemyHit = Math.floor(Math.random() * 6) + 1;
+
+
+enemyPower -= playerHit;
+playerPower -= enemyHit;
+
+
+document.getElementById('player').innerText = playerPower;
+document.getElementById('enemy').innerText = enemyPower;
+
+
+if (enemyPower <= 0) {
+document.getElementById('result').innerText = "You won the battle! Enemy defeated.";
+enemyPower = 15;
+playerPower += 5;
+} else if (playerPower <= 0) {
+document.getElementById('result').innerText = "You lost! Retreat and try again.";
+playerPower = 10;
+enemyPower = 15;
+} else {
+document.getElementById('result').innerText = `You hit ${playerHit}, Enemy hit ${enemyHit}`;
+}
+}
+
+
+function scrollToGame() {
+document.getElementById('game').scrollIntoView({ behavior: 'smooth' });
+}
+</script>
+</body>
+</html> --> 
+
+
+ </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <h1>WAR ZONE</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Missions</a></li>
+            <li><a href="#">Weapons</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <h2>Enter The War Zone</h2>
+        <p>Fight epic battles, lead your army, and dominate the battlefield in the ultimate war gaming experience.</p>
+        <button>Play Now</button>
+    </div>
+</header>
+
+<section>
+    <h2>Game Features</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Realistic Battles</h3>
+            <p>Experience intense war zones with realistic combat mechanics and stunning visuals.</p>
+        </div>
+
+        <div class="card">
+            <h3>Modern Weapons</h3>
+            <p>Unlock powerful guns, tanks, and advanced war equipment to defeat enemies.</p>
+        </div>
+
+        <div class="card">
+            <h3>Global Missions</h3>
+            <p>Fight across deserts, cities, and mountains in global war missions.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © 2025 WAR ZONE GAMING | All Rights Reserved
+</footer>
+
+</body>
+</html>
